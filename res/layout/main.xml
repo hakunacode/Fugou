@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/lytMain"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<LinearLayout
+		android:id="@+id/wndhelp_toolbar"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:background="@drawable/bottom_bar">
+	
+	        <Button android:id="@+id/wndhelp_btn_back"
+	                android:layout_width="64dip"
+	                android:layout_height="wrap_content"
+		            android:layout_gravity="left"
+	                android:text="@string/wndhelp_btn_back"
+	        />
+	
+			<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="6dip"
+					android:layout_gravity="center_vertical"
+					android:layout_weight="1"
+					android:paddingTop="4dip"
+					android:paddingBottom="2dip"
+					android:textColor="#FFFFFF"
+					android:textSize="16sp"
+					android:gravity="center"
+					android:text="@string/wndhelp_title"
+			/>	
+		    <ImageView
+		   			android:layout_width="64dip"
+		  			android:layout_height="wrap_content"
+		  			android:background="@null"
+		  			android:gravity="center_vertical"
+			/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:background="@null"
+		android:layout_weight="1">
+			
+		<WebView android:id="@+id/wndhelp_webview"
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent" 
+			android:drawSelectorOnTop="false"/>
+	</LinearLayout>
+</LinearLayout>

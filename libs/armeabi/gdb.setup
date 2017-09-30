@@ -1,0 +1,2 @@
+set solib-search-path /Work/Android/workspace/Fugou/obj/local/armeabi
+directory /Work/Android/android-ndk-r5b/platforms/android-8/arch-arm/usr/include /Work/Android/android-ndk-r5b/sources/cxx-stl/stlport/stlport /Work/Android/android-ndk-r5b/sources/cxx-stl/system/include /Work/Android/workspace/Fugou/jni /Work/Android/android-ndk-r5b/sources/cxx-stl/system /Work/Android/android-ndk-r5b/sources/cxx-stl/stlport

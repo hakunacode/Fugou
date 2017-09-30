@@ -1,0 +1,2 @@
+# Fugou
+Japanese Card game
